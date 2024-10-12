@@ -1,0 +1,221 @@
+:root {
+    --primary: #2a2a2a;
+    --secondary: #aaa;
+    --third: #f7f7f7;
+    --four: #eee;
+    --white: #fff;
+    --transition: 0.3s;
+    --padding: 80px;
+    --blue: #007bff
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--white);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Start products section */
+.products {
+    padding-top: var(--padding);
+}
+
+.products .container-fluid {
+    background-image: url("../images/products-page-heading.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.products .row .content {
+    padding: 180px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--white);
+    text-align: center;
+}
+
+.products .row h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.products .row p {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* End products section */
+
+/* Start Section our-products */
+.our-products {
+    background-color: var(--white);
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+
+
+}
+
+.our-products .container {
+    text-align: center;
+}
+
+.our-products .container .heading {
+    margin-bottom: 70px;
+}
+
+.our-products .container .heading h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+@media (max-width:767px) {
+    .our-products .container .heading h2 {
+        font-size: 35px;
+
+    }
+}
+
+.our-products .container .heading p {
+    font-style: italic;
+    font-size: 14px;
+    color: var(--secondary);
+
+}
+
+.our-products .product figure {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.our-products .product figure img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.our-products .product figure figcaption {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.our-products .product figure:hover figcaption {
+    bottom: 40px;
+    opacity: 1;
+}
+
+.our-products .product figure figcaption a {
+    width: 50px;
+    height: 50px;
+    background-color: var(--white);
+    color: var(--primary);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.our-products .product .info {
+    margin-top: 30px;
+}
+
+.our-products .product .info .rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our-products .product .info .rating h4 {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.our-products .product .info .rating .icons {
+    display: inline;
+    font-size: 15px;
+}
+
+.our-products .product .info span {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--secondary);
+    text-align: left;
+    display: block;
+}
+
+.indicators {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.indicators a {
+    background-color: var(--white);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+    width: 40px;
+    height: 40px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.indicators a:hover,
+.indicators a.active {
+    background-color: var(--primary);
+    color: var(--white);
+
+}
+
+.indicators a svg {
+    font-weight: bold;
+}
+
+/* End section our-products*/

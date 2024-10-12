@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hexashop</title>
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/normalized.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header-area navbar navbar-expand-lg p-2">
+      <div class="container">
+        <a class="logo navbar-brand" href="#">
+          <img src="assets/images/logo.png" alt="" width="195" />
+        </a>
+
+        <button
+          class="toggle-menu navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="links collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                data-sec="landing"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-sec="men" href="#men">Men's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-sec="women" href="#women">Women's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-sec="kids" href="#kids">Kid's</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="about-us.html">About Us</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="latest-products.html"
+                    >Products</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="single-product.html"
+                    >Single Product</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="contact-us.html">Contact Us</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Features
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Features Page 1</a></li>
+                <li><a class="dropdown-item" href="#">Features Page 2</a></li>
+                <li><a class="dropdown-item" href="#">Features Page 3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-sec="explore" href="#explore">Explore</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="landing" id="landing">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="left col-lg-6 mb-4">
+            <div class="box position-relative">
+              <img src="assets/images/left-banner-image.jpg" alt="" />
+              <div class="info">
+                <h4>We Are Hexashop</h4>
+                <span> Awesome, clean & creative HTML5 Template</span>
+                <a href="#">Purchase Now!</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="right col-lg-6 col-md-12">
+            <div class="row g-4">
+              <div class="col-lg-6 col-md-12">
+                <div class="box position-relative">
+                  <img src="assets/images/baner-right-image-01.jpg" alt="" />
+                  <div class="info">
+                    <h4>Women</h4>
+                    <span>Best Clothes For Women</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="box position-relative">
+                  <img src="assets/images/baner-right-image-02.jpg" alt="" />
+                  <div class="info">
+                    <h4>Men</h4>
+                    <span>Best Clothes For Men</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="box position-relative">
+                  <img src="assets/images/baner-right-image-03.jpg" alt="" />
+                  <div class="info">
+                    <h4>Kids</h4>
+                    <span>Best Clothes For Kids</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="box position-relative">
+                  <img src="assets/images/baner-right-image-04.jpg" alt="" />
+                  <div class="info">
+                    <h4>Accessories</h4>
+                    <span>Best Trend Accessories</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="men" id="men">
+      <div class="container">
+        <h2>Men's Latest</h2>
+        <p>
+          Details to details is what makes Hexashop different from the other
+          themes.
+        </p>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/men-01.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Classic Spring</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$120.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/men-02.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Air Force 1 X</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$90.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/men-03.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Love Mana' 20</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$150.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/men-01.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Classic Spring</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$120.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/men-03.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Love Mana' 20</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$150.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/men-03.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Love Mana' 20</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$150.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/men-01.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Classic Spring</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$120.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/men-02.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Air Force 1 X</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$90.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/men-03.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Love Mana' 20</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$150.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button-prev"></div>
+        <div class="button-next"></div>
+      </div>
+    </section>
+    <section class="women" id="women">
+      <div class="container">
+        <h2>Women's Latest</h2>
+        <p>
+          Details to details is what makes Hexashop different from the other
+          themes.
+        </p>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/women-01.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>New Green Jacket</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$75.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/women-02.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Classic Dress</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$45.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/women-03.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Spring Collection</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$130.00</span>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/women-01.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Classic Spring</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$120.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/women-01.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>New Green Jacket</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$120.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/women-02.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Classic Dress</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$75.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/women-03.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Spring Collection</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$130.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/women-01.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Classic Spring</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$120.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/women-02.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Love Mana' 20</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$150.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button-prev"></div>
+        <div class="button-next"></div>
+      </div>
+    </section>
+    <section class="kids" id="kids">
+      <div class="container">
+        <h2>Kid's Latest</h2>
+        <p>
+          Details to details is what makes Hexashop different from the other
+          themes.
+        </p>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/kid-01.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>School Collection</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$80.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/kid-02.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Summer Cap</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$12.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/kid-03.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Classic Kid</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$30.00</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/images/kid-01.jpg" alt="picture" />
+                <figcaption>
+                  <a href="single-product.html"
+                    ><i class="fa-regular fa-eye"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-star"></i
+                  ></a>
+                  <a href="single-product.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </figcaption>
+              </figure>
+              <div class="info">
+                <div class="rating">
+                  <h4>Classic Spring</h4>
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <span>$120.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button-prev"></div>
+        <div class="button-next"></div>
+      </div>
+    </section>
+    <section class="explore" id="explore">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 col-md-12">
+            <div class="left">
+              <h2>Explore Our Products</h2>
+              <p class="pb-2">
+                You are allowed to use this HexaShop HTML CSS template. You can
+                feel free to modify or edit this layout. You can convert this
+                template as any kind of ecommerce CMS theme as you wish.
+              </p>
+              <div class="quote">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>
+                  You are not allowed to redistribute this template ZIP file on
+                  any other website.
+                </p>
+              </div>
+
+              <p class="pb-2">
+                There are 5 pages included in this HexaShop Template and we are
+                providing it to you for absolutely free of charge at our
+                TemplateMo website. There are web development costs for us.
+              </p>
+              <p class="pb-2">
+                If this template is beneficial for your website or business,
+                please kindly
+                <a
+                  href="https://www.paypal.com/paypalme/templatemo"
+                  target="_blank"
+                  >support us</a
+                >
+                a little via PayPal. Please also tell your friends about our
+                great website. Thank you.
+              </p>
+              <a href="products">Discover More</a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="right">
+              <div class="row g-4">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="box">
+                    <h4>Leather Bags</h4>
+                    <span>Latest Collection</span>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="box">
+                    <img src="assets/images/explore-image-01.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="box">
+                    <img src="assets/images/explore-image-02.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="box">
+                    <h4>Different Types</h4>
+                    <span> Over 304 Products</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="social-media">
+      <div class="container">
+        <div class="heading">
+          <h2>Social Media</h2>
+          <p>
+            Details to details is what makes Hexashop different from the other
+            themes.
+          </p>
+        </div>
+        <div class="row">
+          <div class="slider">
+            <div class="col-2">
+              <figure>
+                <img src="assets/images/instagram-01.jpg" alt="" />
+                <figcaption>
+                  <span>Fashion</span>
+                  <i class="fa-brands fa-instagram"></i>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-2">
+              <figure>
+                <img src="assets/images/instagram-02.jpg" alt="" />
+                <figcaption>
+                  <span>New</span>
+                  <i class="fa-brands fa-instagram"></i>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-2">
+              <figure>
+                <img src="assets/images/instagram-03.jpg" alt="" />
+                <figcaption>
+                  <span>Brand</span>
+                  <i class="fa-brands fa-instagram"></i>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-2">
+              <figure>
+                <img src="assets/images/instagram-04.jpg" alt="" />
+                <figcaption>
+                  <span>Makeup</span>
+                  <i class="fa-brands fa-instagram"></i>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-2">
+              <figure>
+                <img src="assets/images/instagram-05.jpg" alt="" />
+                <figcaption>
+                  <span>Leather</span>
+                  <i class="fa-brands fa-instagram"></i>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-2">
+              <figure>
+                <img src="assets/images/instagram-06.jpg" alt="" />
+                <figcaption>
+                  <span>Bag</span>
+                  <i class="fa-brands fa-instagram"></i>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="subscription">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-7">
+            <div class="left">
+              <h2>By Subscribing To Our Newsletter You Can Get 30% Off</h2>
+              <p>
+                Details to details is what makes Hexashop different from the
+                other themes.
+              </p>
+              <form>
+                <input
+                  type="text"
+                  class="mt-2"
+                  required
+                  placeholder="Your Name"
+                />
+                <input
+                  type="email"
+                  class="mt-2"
+                  required
+                  placeholder="Your Email Address"
+                />
+                <button type="submit" class="mt-2">
+                  <i class="fa fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="right">
+              <div class="row g-4">
+                <div class="col-6">
+                  <div class="box">
+                    <h4>Store Location:</h4>
+                    <span>Sunny Isles Beach, FL 33160, United States</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="box">
+                    <h4>Work Hours:</h4>
+                    <span>07:30 AM - 9:30 PM Daily</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="box">
+                    <h4>Phone:</h4>
+                    <span>010-020-0340</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="box">
+                    <h4>Email:</h4>
+                    <span>info@company.com</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="box">
+                    <h4>Office Location:</h4>
+                    <span>North Miami Beach</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="box">
+                    <h4>Social Media:</h4>
+                    <div class="social">
+                      <a
+                        href="https://templatemo.com/templates/templatemo_571_hexashop/#"
+                        >Facebook,</a
+                      >
+                      <a
+                        href="https://templatemo.com/templates/templatemo_571_hexashop/#"
+                        >Instagram,</a
+                      >
+                      <a
+                        href="https://templatemo.com/templates/templatemo_571_hexashop/#"
+                        >Behance,</a
+                      >
+                      <a
+                        href="https://templatemo.com/templates/templatemo_571_hexashop/#"
+                        >Linkedin</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row g-md-5 g-sm-4">
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+            <img class="mb-4" src="assets/images/white-logo.png" alt="" />
+            <ul>
+              <li>
+                <a href="#"
+                  >16501 Collins Ave, Sunny Isles Beach, FL 33160, United
+                  States</a
+                >
+              </li>
+              <li><a href="#">hexashop@company.com</a></li>
+              <li><a href="#"> 010-020-0340</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+            <h4>Shopping & Categories</h4>
+            <ul>
+              <li><a href="#">Men’s Shopping</a></li>
+              <li><a href="#">Women’s Shopping</a></li>
+              <li><a href="#"> Kid's Shopping</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Homepage</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+            <h4>Help & Information</h4>
+            <ul>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">FAQ's</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Tracking ID</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright &copy; 2022 HexaShop Co., Ltd. All Rights Reserved.</p>
+            <p>Design: <a href="https://templatemo.com/">TemplateMo</a></p>
+            <div class="icons">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+              <a href="#"> <i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"> <i class="fa-brands fa-behance"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

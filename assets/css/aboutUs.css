@@ -1,0 +1,356 @@
+:root {
+    --primary: #2a2a2a;
+    --secondary: #aaa;
+    --third: #f7f7f7;
+    --four: #eee;
+    --white: #fff;
+    --transition: 0.3s;
+    --padding: 80px;
+    --blue: #007bff
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--white);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Start about section */
+.about {
+    padding-top: var(--padding);
+}
+
+.about .container-fluid {
+    background-image: url("../images/about-us-page-heading.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about .row .content {
+    padding: 180px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--white);
+    text-align: center;
+}
+
+.about .row h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.about .row p {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* End about section */
+/* Start Section skills */
+.skills {
+    background-color: var(--white);
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+    border-bottom: 2px dashed var(--secondary);
+}
+
+.skills .left img {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.skills .right h2 {
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--primary);
+    margin-bottom: 30px;
+}
+
+@media (max-width:767px) {
+    .skills .right h2 {
+        font-size: 35px;
+
+    }
+}
+
+.skills .right>p {
+    color: var(--secondary);
+    font-weight: 500;
+    margin: 25px 0;
+}
+
+.skills .right .quote {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.skills .right .quote svg {
+    font-weight: bold;
+    font-size: 45px;
+    color: var(--primary);
+}
+
+.skills .right .quote p {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.skills .right .icons {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-top: 2px dashed var(--four);
+    padding-top: 20px;
+}
+
+.skills .right .icons a {
+    color: var(--white);
+    background-color: var(--primary);
+    font-size: 22px;
+    transition: all var(--transition);
+    -webkit-transition: all var(--transition);
+    -moz-transition: all var(--transition);
+    -ms-transition: all var(--transition);
+    -o-transition: all var(--transition);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills .right .icons a:hover {
+    background-color: var(--four);
+    color: var(--primary);
+}
+
+.skills .right .icons a svg {
+    font-size: 15px;
+}
+
+
+/* End Section skills */
+/* Start team section */
+.team {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+    background-color: var(--white);
+    border-bottom: 2px dashed var(--four);
+}
+
+.team .container {
+    text-align: center;
+}
+
+.team .container .heading {
+    margin-bottom: 70px;
+}
+
+.team .container .heading h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+@media (max-width:767px) {
+    .team .container .heading h2 {
+        font-size: 35px;
+
+    }
+}
+
+.team .container .heading p {
+    font-style: italic;
+    font-size: 14px;
+    color: var(--secondary);
+
+}
+
+.team figure .image {
+    width: 100%;
+    position: relative;
+}
+
+.team figure .image .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity var(--transition);
+    -webkit-transition: opacity var(--transition);
+    -moz-transition: opacity var(--transition);
+    -ms-transition: opacity var(--transition);
+    -o-transition: opacity var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team figure .image .overlay.visible {
+    opacity: 1;
+}
+
+.team figure .image .overlay .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.team figure .image .overlay .icons a {
+    color: var(--primary);
+    background-color: var(--white);
+    font-size: 22px;
+    transition: all var(--transition);
+    -webkit-transition: all var(--transition);
+    -moz-transition: all var(--transition);
+    -ms-transition: all var(--transition);
+    -o-transition: all var(--transition);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.team figure .image .overlay .icons a:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.team figure .image .overlay .icons a svg {
+    font-size: 20px;
+}
+
+.team figure img {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+.team figure figcaption {
+    padding-top: 30px;
+}
+
+.team figure figcaption h4 {
+    font-size: 25px;
+    color: var(--primary);
+    font-weight: bold;
+
+}
+
+.team figure figcaption span {
+    font-style: italic;
+    color: var(--secondary);
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+
+/* End team section */
+/* Start services section */
+.services {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+    background-color: var(--white);
+    border-bottom: 2px dashed var(--four);
+}
+
+.services .container {
+    text-align: center;
+}
+
+.services .container .heading {
+    margin-bottom: 70px;
+}
+
+.services .container .heading h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+@media (max-width:767px) {
+    .services .container .heading h2 {
+        font-size: 35px;
+
+    }
+}
+
+.services .container .heading p {
+    font-style: italic;
+    font-size: 14px;
+    color: var(--secondary);
+
+}
+
+.services .service {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
+    background-color: var(--white);
+    padding: 40px;
+
+}
+
+.services .service h4 {
+    font-size: 25px;
+    color: var(--primary);
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.services .service p {
+    color: var(--primary);
+    line-height: 25px;
+    font-size: 14px;
+    margin-bottom: 25px;
+
+}
+
+.services .service .image {
+    width: 100%;
+}
+
+.services .service .image img {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* End services section */
