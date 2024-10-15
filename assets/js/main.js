@@ -76,7 +76,7 @@ function openOrCloseToggleMenu(e) {
   e.stopPropagation();
   if (e.target.ariaExpanded == "true") {
     e.target.children[0].style.cssText = "top:0; transform: rotate(45deg);";
-    e.target.children[1].style.cssText = "display: none;";
+    e.target.children[1].style.cssText = "display: none; top:0px;";
     e.target.children[2].style.cssText = "top: 0px; transform: rotate(-45deg);";
   } else {
     e.target.children[0].style.cssText = "top:0; transform: rotate(0deg);";
